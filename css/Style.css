@@ -1,0 +1,97 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #333;
+	padding: 1em;
+	text-align: center;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav li {
+	margin-right: 20px;
+}
+
+.nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+
+.hero {
+	
+	background-image: url('img/kinal.jpg');
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #070707;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+
+.hero button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.Resumen {
+	background-color: #d4cdc5;
+	padding: 2em;
+}
+
+.Resumen ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.Resumen li {
+	margin: 20px;
+}
+
+.Resumen img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.Resumen h3 {
+	margin-top: 10px;
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
